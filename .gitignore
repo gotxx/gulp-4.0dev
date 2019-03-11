@@ -292,3 +292,7 @@ modules.xml
 
 # Folders
 /dist
+/app/bkp
+
+
+*.csv
