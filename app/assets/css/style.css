@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,latin-ext);
+body {
+  margin: 0px; }
+
+#landing-page {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #373b46;
+  /* ul {
+	margin: 1em 0;
+	li {
+		color: #1a2552;
+		line-height: 2.250em;
+		list-style-type: disc;
+		span {
+			color: #000;
+		}
+	}
+} */ }
+  #landing-page.n24 {
+    width: 940px; }
+  #landing-page .fleft {
+    float: left; }
+  #landing-page .fright {
+    float: right; }
+  #landing-page .inblock {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1; }
+  #landing-page .cf {
+    *zoom: 1; }
+    #landing-page .cf:before, #landing-page .cf:after {
+      display: table;
+      content: "";
+      line-height: 0; }
+    #landing-page .cf:after {
+      clear: both; }
+  #landing-page .ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px; }
+    #landing-page .ir:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 150%; }
+  #landing-page div {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  #landing-page img {
+    display: block;
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    max-width: 100%; }
+  #landing-page h1, #landing-page h2 {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: none;
+    color: #000; }
+  #landing-page h1 {
+    margin: 0;
+    font-size: 1.500rem;
+    line-height: 1.2;
+    margin: 25px 0; }
+  #landing-page h2 {
+    margin: 0.3em 0;
+    font-size: 0.875em; }
+  #landing-page p {
+    margin: 0 0 0.3em 0;
+    font-size: 0.875em; }
+  #landing-page ol, #landing-page ul {
+    margin: 1em 0;
+    padding-left: 22px;
+    font-size: 16px; }
+    #landing-page ol li, #landing-page ul li {
+      margin-bottom: 5px;
+      font-size: 0.750em;
+      line-height: 1.5;
+      font-weight: 400; }
+  #landing-page dl {
+    margin: 0;
+    font-size: 16px; }
+    #landing-page dl dt {
+      float: left; }
+  #landing-page .lp-header {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    background: red; }
+    #landing-page .lp-header > img {
+      position: relative;
+      z-index: 1; }
+  #landing-page .lp-main {
+    text-align: center;
+    padding: 0 5px 20px;
+    background-color: #fff; }
+  #landing-page .lp-no-prods {
+    margin: 15px 0; }
+  #landing-page .lp-product-wrapper {
+    padding-top: 15px;
+    font-size: 0;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    transition-duration: 0.5s; }
+  #landing-page .lp-category-header {
+    margin: 0;
+    padding: 40px 0;
+    font-size: 1.375em;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5; }
+  #landing-page .lp-category-nav {
+    position: relative;
+    z-index: 5;
+    display: table;
+    width: 100%;
+    margin: 10px auto 10px;
+    padding: 0; }
+    #landing-page .lp-category-nav li {
+      display: table-cell;
+      vertical-align: top;
+      width: calc(100%/6);
+      margin: 0;
+      padding: 0 5px;
+      font-size: 16px;
+      text-align: center; }
+      #landing-page .lp-category-nav li:first-child a:after {
+        display: none; }
+      #landing-page .lp-category-nav li:hover a, #landing-page .lp-category-nav li.active a {
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        color: #fff;
+        background-color: #e30613; }
+      #landing-page .lp-category-nav li a {
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -ms-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        position: relative;
+        display: table;
+        width: 100%;
+        height: 43px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 0.75em;
+        line-height: 43px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #e30613;
+        border: 1px solid #e30613;
+        background-color: #fff; }
+        #landing-page .lp-category-nav li a > span {
+          display: table-cell;
+          line-height: 1.2;
+          vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */
