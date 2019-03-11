@@ -1,0 +1,18 @@
+/* SPRITES */
+$icons: sprite-map("icons/*.png");
+$i:0;
+.icon {
+	background: $icons;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	vertical-align: middle;
+}
+
+@each $i in sprite_names($icons) {
+	.#{$i} {
+		background-position: sprite-position($icons, $i);
+		@include sprite-dimensions($icons, $i);	
+	}
+}
+/* /SPRITES */
