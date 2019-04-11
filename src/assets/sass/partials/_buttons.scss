@@ -1,0 +1,64 @@
+.button, .lp-listing-btn, .lp-btn-check{
+	&:hover {
+		@include transition-duration(.3s);
+		background-color: #a60d16;
+	}
+	&:active {
+		@include transition-duration(.3s);
+		background-color: #a60d16;
+	}
+}
+.lp-btn-check {
+	font-size: 16px;
+	line-height: 1;
+	padding: 14px 38px;
+	background-color: #ff0016;
+
+}
+.lp-listing-btn {
+	font-size: 18px;
+	line-height: 1;
+	padding: 30px 70px;
+}
+
+.lp-btn {
+	@include transition-duration(.3s);
+	padding: 15px 30px;
+	margin: 0;
+	display: inline-block;
+	color: #fff;
+	font-family: $font-n24;
+	font-size: em(12px);
+	line-height: 1;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #c20e19;
+	&:hover {
+		@include transition-duration(.3s);
+		background-color: #a60d16;
+	}
+	&:active {
+		@include transition-duration(.3s);
+		background-color: #a60d16;
+	}
+	&_block {
+		display: block;
+	}
+	&_check {
+		border: 1px solid #e30613;
+		background-color: #fff;
+		color: #e30613;
+		&:hover {
+			@include transition-duration(.3s);
+			background-color: #e30613;
+			color: #fff;
+		}
+		&:active {
+			@include transition-duration(.3s);
+			background-color: #e30613;
+			color: #fff;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+.lp-footer {
+	background: #F4F7FE;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	a, span {
+		display: inline-block;
+		color: #000;
+		text-decoration: none;
+		font-size: 13px;
+		line-height: 18px;
+		font-weight: 400;
+		text-decoration: none;
+		padding: 10px 0 10px 40px;
+		margin: 11px 0 10px 0;
+	}
+	a.btn {
+		@include transition-duration(.3s);
+		&:hover {
+			@include transition-duration(.3s);
+			color: #727272;
+		}
+	}
+	.legal-pdf{
+		background:transparent url('../images/icons/icon-pdf.png') left center no-repeat;
+	}
+	.legal-date{
+		background:transparent url('../images/icons/icon-date-white.png') left center no-repeat;
+		padding-left: 50px;
+	}
+	.legal-form{
+		background:transparent url('../images/icons/icon-form-v2-white.png') left center no-repeat;
+	}
+	.legal-reg{
+		background:transparent url('../images/icons/icon-pdf-red.png') left center no-repeat;
+	}
+}

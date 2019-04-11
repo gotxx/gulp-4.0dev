@@ -1,0 +1,151 @@
+$lp-product-height: 360px;
+.lp-product {
+	@extend .inblock;
+	@include transition-duration(.3s);
+	position: relative;
+	width: 30.33%;
+	padding: 15px 2%;
+	font-size: $basic-font-size;
+	background-color: #fff;
+	margin: 1.5%;
+	// border: 1px solid #e5e5e5;
+	&:hover {
+		@include transition-duration(.3s);
+	}
+	.lp-price-inner-wrapper {
+		background-color: #f4f4f4;
+		padding: 5px 0;
+	}
+	.lp-product-inch {
+		@include box-sizing(border-box);
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 10;
+		width: 97px;
+		height: 80px;
+		padding-left: 45px;
+		background-image: url(../images/lp-inch-bg.png);
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 42px;
+		text-align: center;
+		color: #000;
+	}
+	.energy_class_wrapper {
+		width: 80px;
+		position: absolute;
+		left: 10%;
+		top: 10%;
+		z-index: 5;
+		text-align: left;
+		.pc-link {
+			background-color: rgba(255,255,255,0.7);
+			font-size: 11px;
+			padding: 3px;
+			color: #333;
+			text-decoration: none;
+			white-space: nowrap;
+		}
+		img {
+			padding: 0;
+		}
+	}
+	.lp-product-img {
+		// margin: 0 -5px;
+		margin: 10px auto;
+		a {
+			position: relative;
+			display: block;
+			height: 200px;
+			line-height: 200px;
+			overflow: hidden;
+			img {
+				@extend .inblock;
+				vertical-align: middle;
+			}
+		}
+	}
+	.lp-product-category {
+		font-size: em(12px);
+		line-height: 1.1;
+		font-weight: 300;
+		margin: 0 0 5px 0;
+		color: #2d2d2d;
+		text-transform: uppercase;
+	}
+	.lp-product-name {
+		overflow: hidden;
+		font-size: em(15px);
+		font-weight: 700;
+		line-height: 1.1;
+		margin: 0 0 5px 0;
+		color: #2d2d2d;
+		&:after {
+			content: "";
+			display: block;
+			width: 20%;
+			height: 3px;
+			background-color: #e30613;
+			margin: 15px auto 5px;
+
+		}
+	}
+	.lp-price {
+		position: relative;
+		// border-top: 1px solid #e5e5e5;
+		padding: 0 0 15px 0;
+		> * {
+			display: block;
+		}
+		.lp-price-old {
+			@extend .inblock;
+			font-size: 1rem;
+			text-decoration: line-through;
+			color: #373b46;
+			margin: 0 0 5px;
+		}
+		.lp-price-new {
+			display: block;
+			font-size: 2.125rem;
+			color: #f5342f;
+			font-weight: 700;
+			line-height: 1;
+			small {
+				font-size: 17px;
+				// font-size: 1em;
+			}
+		}
+		.lp-promo-code {
+			margin: 0;
+			font-size: 14px;
+			color: #000;
+			strong {
+				color: #000;
+			}
+		}
+		
+	}
+	.lp-features {
+		// display: none;
+		text-align: left;
+		margin: 0 0 15px 0;
+		padding: 0 0 0 10px;
+		// height: 64px;
+		height: 80px;
+		overflow: hidden;
+		font-size: $basic-font-size;
+		li {
+			font-family: $font-basic, sans-serif;
+			font-size: 0.875rem;
+			background: url('../images/icons/icon-check.png') left 5px no-repeat;
+			line-height: 20px;
+			list-style: none;
+			padding-left: 15px;
+			text-align: left;
+			margin: 0;
+		}
+	}
+}
